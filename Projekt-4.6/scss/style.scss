@@ -1,0 +1,24 @@
+/* Variables */
+$color-light: #fff;
+$color-yellow: #F4D137;
+$font-text: 'Open Sans', sans-serif;
+/* Global */
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+.row::before,
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+body {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.7;
+	font-family: $font-text;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
