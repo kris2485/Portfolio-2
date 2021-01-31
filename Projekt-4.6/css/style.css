@@ -32,6 +32,7 @@ header {
   color: #fff;
   position: relative;
   z-index: 1;
+  margin-bottom: 150px;
 }
 
 header .logo {
@@ -120,6 +121,70 @@ header::after {
   bottom: 0;
   background: linear-gradient(to bottom, transparent 0%, black 100%);
   z-index: -1;
+}
+
+/* Services */
+.services {
+  padding-bottom: 100px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.title-p {
+  text-align: center;
+  color: #ADADAD;
+  margin-top: 0;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.wrap .wrap-services {
+  flex: 0 0 33.333%;
+  position: relative;
+  text-align: center;
+}
+
+.wrap .wrap-services h1 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 0;
+  font-size: 20px;
+}
+
+.wrap .wrap-services p {
+  color: #ADADAD;
+  font-size: 14px;
+}
+
+.wrap .wrap-services .font {
+  font-size: 40px;
+  background-color: #EDEFF1;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  vertical-align: middle;
+  margin: 0 auto;
+  background: none;
+  border: 2px solid #F4D137;
+}
+
+.wrap .wrap-services .font i {
+  color: #F4D137;
 }
 
 /*# sourceMappingURL=style.css.map */
