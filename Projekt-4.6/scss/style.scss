@@ -135,36 +135,36 @@ header::after {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 60px;
-        .wrap-services {
-        flex: 0 0 33.333%;
-        position: relative;
-        text-align: center;
-            h1 {
-            color: #000;
-            font-family: 'Raleway', sans-serif;
-            padding-top: 0;
-            font-size: 20px;
+}
+.wrap-services {
+flex: 0 0 33.333%;
+position: relative;
+text-align: center;
+    h1 {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0;
+    font-size: 20px;
+    }
+    p {
+    color: #ADADAD;
+    font-size: 14px;
+    }
+        .font {
+            font-size: 40px;
+            background-color: #EDEFF1;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 80px;
+            vertical-align: middle;
+            margin: 0 auto;
+            background: none;
+            border: 2px solid $color-yellow;
+            i {
+            color: $color-yellow;
             }
-            p {
-            color: #ADADAD;
-            font-size: 14px;
-            }
-                .font {
-                    font-size: 40px;
-                    background-color: #EDEFF1;
-                    width: 80px;
-                    height: 80px;
-                    border-radius: 50%;
-                    text-align: center;
-                    line-height: 80px;
-                    vertical-align: middle;
-                    margin: 0 auto;
-                    background: none;
-                    border: 2px solid $color-yellow;
-                    i {
-                    color: $color-yellow;
-                    }
-                }
-                
         }
+        
 }
