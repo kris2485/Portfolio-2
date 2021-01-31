@@ -26,14 +26,18 @@ body {
 header {
     background-image: url('https://i.postimg.cc/Y01zr7RV/Background-Image.jpg');
     background-size: cover;
-    height: 1053px;
+    height: 900px;
+    width: 100%;
     color: $color-light;
     position: relative;
     z-index: 1;
         .logo {
             float: left;
             padding: 10px 0;
-            font-size: 32px;
+            font-size: 28px;
+            color: $color-yellow;
+            font-family: 'Pacifico', cursive;
+            font-style: italic;
         }
         .navigation {
             float: right;
@@ -59,12 +63,21 @@ header {
         left: 50%;
         transform: translate(-50%,-50%);
         text-align: center;
-            h1 {
-            font-size: 60px;
-            font-family: 'Raleway', sans-serif;
-            }
+        font-family: 'Raleway', sans-serif;
+        margin-top: 100px;
             h2 {
-                font-family: $font-text;
+                font-weight: 400;
+                font-style: italic;
+                font-size: 40px;
+                text-transform: capitalize;
+                margin-bottom: 0;
+            }
+            h1 {
+                font-size: 80px;
+                text-transform: uppercase;
+                font-weight: 600;
+                margin-top: 0;
+                margin-bottom: 0;
             }
         }
 .btn {
@@ -84,8 +97,17 @@ header {
     cursor: pointer;
     background-color: $color-yellow;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
     font-weight: 800;
 
     }
+}
+header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+    z-index: -1;
 }

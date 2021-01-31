@@ -27,7 +27,8 @@ body {
 header {
   background-image: url("https://i.postimg.cc/Y01zr7RV/Background-Image.jpg");
   background-size: cover;
-  height: 1053px;
+  height: 900px;
+  width: 100%;
   color: #fff;
   position: relative;
   z-index: 1;
@@ -36,7 +37,10 @@ header {
 header .logo {
   float: left;
   padding: 10px 0;
-  font-size: 32px;
+  font-size: 28px;
+  color: #F4D137;
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
 }
 
 header .navigation {
@@ -67,15 +71,24 @@ header .splash {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-header .splash h1 {
-  font-size: 60px;
   font-family: 'Raleway', sans-serif;
+  margin-top: 100px;
 }
 
 header .splash h2 {
-  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+header .splash h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 header .btn {
@@ -95,8 +108,18 @@ header .btn {
   cursor: pointer;
   background-color: #F4D137;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
   font-weight: 800;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+  z-index: -1;
 }
 
 /*# sourceMappingURL=style.css.map */
