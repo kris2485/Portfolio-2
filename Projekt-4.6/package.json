@@ -2,7 +2,7 @@
   "name": "task-runner",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "init-project": "npm install && npm-run-all init:*",
 
@@ -10,11 +10,11 @@
     "init:files": "touch README.md index.html scss/style.scss js/script.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
 
-    "test": "npm-run-all test:*",
+    "test": "npm run test:html",
     "test:html": "html-validate *.html",
 
     "build": "npm-run-all build:* test",
-    "build:sass": "ode-sass --output-style compact -o css sass",
+    "build:sass": "node-sass --output-style compact -o css sass",
     "build:autoprefixer": "autoprefixer-cli -o css/style.prefixed.css css/style.css",
 
     "build-dev": "npm-run-all build-dev:sass build:autoprefixer",
