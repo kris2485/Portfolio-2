@@ -239,4 +239,58 @@ footer {
             }
         }
 }
-
+/* Media */
+@media (max-width: 767px) {
+    header {
+    margin-bottom: 20px;
+        .logo {
+        float: none;
+        text-align: center;
+        }
+        .navigation {
+        float: left;
+            ul {
+                li {
+                padding-top: 0;
+                display: block;
+                margin-left: 20px;
+                    a {
+                    font-size: 25px;
+                    }
+                }
+            }
+        }
+        .splash {
+        margin-top: 150px;
+            h2 {
+            font-size: 30px;
+            }
+            h1 {
+            font-size: 40px;
+            }
+        }
+        .btn {
+            min-width: 120px;
+            font-size: 15px;
+        }
+    }
+    .services {
+    padding-bottom: 0;
+    }
+    .wrap {
+    display: block;
+    }
+    .portfolio {
+    background: $color-light;
+    margin-top: 0;
+    padding-bottom: 0;
+    }
+    .wrap-footer {
+    display: block;
+    text-align: center;
+        ul {
+        margin-left: 0;
+        justify-content: center;
+        }
+    }
+}

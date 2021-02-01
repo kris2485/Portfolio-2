@@ -270,4 +270,58 @@ footer {
   text-align: center;
 }
 
+/* Media */
+@media (max-width: 767px) {
+  header {
+    margin-bottom: 20px;
+  }
+  header .logo {
+    float: none;
+    text-align: center;
+  }
+  header .navigation {
+    float: left;
+  }
+  header .navigation ul li {
+    padding-top: 0;
+    display: block;
+    margin-left: 20px;
+  }
+  header .navigation ul li a {
+    font-size: 25px;
+  }
+  header .splash {
+    margin-top: 150px;
+  }
+  header .splash h2 {
+    font-size: 30px;
+  }
+  header .splash h1 {
+    font-size: 40px;
+  }
+  header .btn {
+    min-width: 120px;
+    font-size: 15px;
+  }
+  .services {
+    padding-bottom: 0;
+  }
+  .wrap {
+    display: block;
+  }
+  .portfolio {
+    background: #fff;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+  .wrap-footer {
+    display: block;
+    text-align: center;
+  }
+  .wrap-footer ul {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
