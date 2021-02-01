@@ -235,4 +235,39 @@ header::after {
   font-size: 14px;
 }
 
+/* Footer */
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.wrap-footer {
+  display: flex;
+}
+
+.wrap-footer p {
+  padding-top: 10px;
+}
+
+.wrap-footer ul {
+  display: flex;
+  margin-left: 125px;
+}
+
+.wrap-footer ul li {
+  font-size: 0;
+  padding: 5px;
+}
+
+.wrap-footer ul li i {
+  font-size: 20px;
+  color: #fff;
+  background: #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
