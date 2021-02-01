@@ -211,22 +211,26 @@ header::after {
   font-style: italic;
 }
 
-.portfolio .portfolio-img {
+.portfolio .portfolio-item {
+  margin-bottom: 40px;
+}
+
+.portfolio .portfolio-item .portfolio-img {
   background: #fff;
 }
 
-.portfolio .portfolio-text {
+.portfolio .portfolio-item .portfolio-text {
   background: #fff;
   text-align: center;
 }
 
-.portfolio .portfolio-text h3 {
+.portfolio .portfolio-item .portfolio-text h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
 }
 
-.portfolio .portfolio-text p {
+.portfolio .portfolio-item .portfolio-text p {
   padding-bottom: 20px;
   font-size: 14px;
 }
